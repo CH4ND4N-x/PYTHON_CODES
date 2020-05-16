@@ -1,0 +1,39 @@
+"""
+GIT Commands - Working as a Solo Developer
+"""
+
+
+# Why git and what git can do
+# Install git locally 
+# On terminal or Git Bash run the command to confirm the installation 
+# git --version
+
+# Configuring the git on your system  
+# git config user.email "sylvester@neuerung.co.in"
+# git config user.name "Dr. Sylvester Fernandes"
+
+
+# Goto Github and create an account
+# Create a new empty remote repo on Github
+# Repository Name = FSDP_2019 and Description (optional) = FSDP_2019 
+# which should be Public and DO NOT initialize it with a README 
+# Click on Create repository
+# copy the HTTPS URL of repo ( https://github.com/neuerung/FSDP_2019.git  )
+# Goto terminal or Command Prompt and change directory to the desktop 
+# Run the below command to clone as a local repo
+# git clone https://github.com/neuerung/FSDP_2019.git
+
+
+# Example to understand the concept 
+# Change directory to FSDP_2019
+# create a test.py file on desktop/FSDP_2019
+# git status  # Untracked file 
+# git add test.py 
+# git status  # New file 
+# git commit -m "Added new file"
+# git status # nothing to commit
+# git push          ( git push –u origin master )
+# Goto github.com and refresh your page to see the test.py
+
+
+
